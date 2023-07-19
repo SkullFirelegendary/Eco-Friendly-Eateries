@@ -1,0 +1,117 @@
+@import url('https://fonts.cdnfonts.com/css/g-gasin');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(vegetables-set-left-black-slate.jpg);
+    background-size:cover;
+    position: relative;
+    top: 100px;
+    bottom: 100%;
+    overflow: hidden;
+}
+.bar{
+    background: olivedrab;
+    width: 18.8em;
+    height: 10%;
+}
+.box h1{
+    position: absolute;
+    bottom: 56%;
+    right:2% ;
+}
+
+.box{
+    font-family: 'g Gasin', sans-serif;
+    width: 300px;
+    height: 180px;;
+    padding: 50px 30px;
+    position: relative;
+    top: 1em;
+    transform: translate(50% 50%);
+    background: rgba(250, 128, 25, 0.5);
+    overflow: hidden;
+    text-align: center;
+}
+.bar{
+    background: olivedrab;
+    width: 22.7em;
+    height: 10%;
+    position: absolute;
+    right: 0%;
+}
+span{
+    text-shadow: 0 0 5px black;
+    background: rgba(255, 255, 255, 0.1);
+    color: darkorange;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.box h2{
+    font-size: 1em;
+    color:snow;
+    text-shadow: 0 0 5px black;
+
+}
+.box h1{
+    color: greenyellow;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;bottom: 30px;
+}
+input[type="text"]
+{
+    border: 0;
+    background: none;
+    display:inline-block;
+    margin: 20px 600px;
+    text-align:center;
+    border: 3px solid coral;
+    padding: 14px 10px;
+    width:  110px;
+    outline: none;
+    color: deepskyblue;
+    border-radius: 24px;
+    transition: 0.25;
+}
+input[type="text"]:focus{
+    width: 150px;
+    border-color: deepskyblue;
+}
+input[type="submit"]{
+    border: 0;
+    background: none;
+    display:inline-block;
+    margin: 0 800px;
+    text-align: center;
+    border: 3px solid lime;
+    padding:  14px 35px;
+    outline: none;
+    color: aliceblue;
+    border-radius: 24px;
+    transition: 0.25;
+    cursor: pointer;
+    position: relative;top: -70px;
+}
+input[type="submit"]:hover{
+    background: green;
+}
+/*
+.text{
+    font-size: 1.5vw;
+    width: 2vw;
+    height: 0.8vw;
+    position: absolute;bottom: 120%;
+    left: 2%;
+}
+@media screen and (max-width: 520px) {
+    .text{
+        font-size: 3vw;
+        width: fit-content;
+        position: absolute;
+        left: 10%;
+        bottom: 120%;
+    }
+}
+*/
