@@ -4,7 +4,7 @@ function validate() {
 
     if (username == "Maleick" && password == "2111578") {
         alert("Login Success \nWelcome "+ username +".");
-        window.open("http://127.0.0.1:3000/Website/Eco -friendly eatries app/eco- friendly eateries restaurants.html");
+        window.open("./Eco-friendlyEateriesRestaurants.html");
     }
     else{
         alert("Check the input.");
